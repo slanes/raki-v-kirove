@@ -24,6 +24,8 @@ class ApiService extends Controller
 	        $order->save();
 	        if($order->id){
         		$result['response'] = 'Ваша заявка принята.<br/>В ближайшее время с Вами свяжется наш менеджер.';
+	        	$message = 'Имя: ' . $order->name . ' <br> Телефон: ' . $order->phone;
+	        	mail('raki.kirov@mail.ru', 'Заявка с сайта', $message);
 	        }
 		}
 

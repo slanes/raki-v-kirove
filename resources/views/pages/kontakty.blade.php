@@ -18,7 +18,7 @@
       <p><span>Email:</span>  <a rel="nofollow" itemprop="email"  href="mailto:{{config('information.email')}}" class="yellow">{{config('information.email')}}</a></p>
    </div>
    <div class="contacts">
-      <iframe src="https://yandex.ru/map-widget/v1/-/CBUfqKUZ-B" ></iframe>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa277b226a88655bd52206e398d0c1c8376f1dca66e1ee51e06beefb4254e2669&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
       </div>
 </div>
 @endsection

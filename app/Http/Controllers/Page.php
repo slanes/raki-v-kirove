@@ -14,14 +14,6 @@ class Page extends Controller
     	return view('pages.raki');
     }
 
-    public function recepty(){
-        return view('pages.recepty');
-    }
-
-    public function otzyvy(){
-        return view('pages.otzyvy');
-    }
-
     public function dostavka(){
     	return view('pages.dostavka');
     }

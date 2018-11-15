@@ -2,8 +2,8 @@
 	<?php
 		$menuItems = [
 			'raki' => 'Раки',
-			'recepty' => 'Рецепты',
-			'otzyvy' => 'Отзывы',
+			//'recepty' => 'Рецепты',
+			//'otzyvy' => 'Отзывы',
 			'dostavka' => 'Доставка',
 			'kontakty' => 'Контакты',
 		];

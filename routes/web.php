@@ -13,8 +13,9 @@
 
 Route::get('/', 'Page@glavnaja')->name('glavnaja');
 Route::get('/raki', 'Page@raki')->name('raki');
-Route::get('/recepty', 'Page@recepty')->name('recepty');
-Route::get('/otzyvy', 'Page@otzyvy')->name('otzyvy');
 Route::get('/dostavka', 'Page@dostavka')->name('dostavka');
 Route::get('/kontakty', 'Page@kontakty')->name('kontakty');
 Route::get('/politika-konfidentsialnosti', 'Page@politika_konfidentsialnosti')->name('politika-konfidentsialnosti');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

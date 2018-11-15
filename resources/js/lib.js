@@ -14,8 +14,8 @@ function SendEmail(fields, form) {
     $.ajax(options).done(function(data) {
         form.find('div.form').hide();
         form.find('div.thank').show();
-        if (data.responce && data.responce !== '') {
-            form.find('div.thank').html(data.responce);
+        if (data.response && data.response !== '') {
+            form.find('div.thank').html(data.response);
         } else if (data.error) {
             form.find('div.thank').html(data.error);
         }

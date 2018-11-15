@@ -13,7 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::post('/service', function (Request $request) {
-    return ['responce' => "Ваша заявка принята.<br/>В ближайшее время с Вами свяжется наш менеджер."];
-});
-
+Route::post('/service', 'ApiService@createOrder');

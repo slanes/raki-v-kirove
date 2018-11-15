@@ -10,4 +10,6 @@ return [
     'worktime' => 'круглосуточно',
     'instagram' => 'raki.kirov',
     'vk' => '',
+    'percent_profit' => 0.10,
+    'company' => 'Ракоед'
 ];

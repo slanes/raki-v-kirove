@@ -11,18 +11,6 @@ Breadcrumbs::for('raki', function ($trail) {
     $trail->push('Раки', route('raki'));
 });
 
-// Главная > Рецепты
-Breadcrumbs::for('recepty', function ($trail) {
-    $trail->parent('glavnaja');
-    $trail->push('Рецепты', route('recepty'));
-});
-
-// Главная > Отзывы
-Breadcrumbs::for('otzyvy', function ($trail) {
-    $trail->parent('glavnaja');
-    $trail->push('Отзывы', route('otzyvy'));
-});
-
 // Главная > Доставка
 Breadcrumbs::for('dostavka', function ($trail) {
     $trail->parent('glavnaja');
